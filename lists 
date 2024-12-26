@@ -1,0 +1,20 @@
+school = ["12 final exams"," 11 nights of crying"," 10 thoughts of dying "," 9 hours of studying per day"," 8 lunch detentions "," 7 thoughts of dying ", " 6 hours of stress", " 5 WHOLE LECTURES",
+          "4 sleepless nights", " 3 big essays" ]
+
+print(school)
+
+school.append("2 PE tests")
+school.append("AND A YEAR OF ANXIETY!!!!!!")
+
+print(school)
+
+print(school[3])
+
+school[3] = "9 teacher scoldings"
+print(school)
+
+school.remove("2 PE tests")
+print(school)
+
+
+print(len(school))
